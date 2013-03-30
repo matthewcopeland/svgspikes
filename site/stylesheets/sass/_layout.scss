@@ -2,8 +2,10 @@
 // general global layout
 
 #main-header, #main, #main-footer {
-  max-width: 960px;
+  max-width: 1040px;
   margin: 0 auto;
+  padding-right: $gutter-horizontal;
+  padding-left: $gutter-horizontal;
 }
 
 section { margin-bottom: $gutter-section; }

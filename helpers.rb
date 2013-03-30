@@ -3,5 +3,7 @@ def parameterize(data)
 end
 
 def nav_links
-  []
+  [
+    "Append"
+  ]
 end

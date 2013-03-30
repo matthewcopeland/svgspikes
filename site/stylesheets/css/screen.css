@@ -54,17 +54,20 @@ body {
 
 a {
   color: #333333;
-  text-decoration: none;
+  text-decoration: underline;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
-  transition: color 0.3s; }
+  transition: color 0.3s;
+  cursor: pointer; }
   a:hover {
     color: #666666;
     text-decoration: underline; }
 
 #main-header, #main, #main-footer {
-  max-width: 960px;
-  margin: 0 auto; }
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-right: 1em;
+  padding-left: 1em; }
 
 section {
   margin-bottom: 1.5em; }
@@ -81,8 +84,10 @@ figcaption {
 
 @media only screen and (max-width: 1024px) {
   * -webkit-text-size-adjust: none; }
-#main-nav li {
+#main-header li {
   display: inline-block; }
+#main-header a:not(:hover) {
+  text-decoration: none; }
 
 .placeholder-video, .video-wrapper {
   position: relative;

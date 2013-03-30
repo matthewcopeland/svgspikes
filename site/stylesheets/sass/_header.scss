@@ -1,3 +1,4 @@
-#main-nav {
+#main-header {
   li { display: inline-block; }
+  a:not(:hover) { text-decoration: none; }
 }

@@ -2,8 +2,9 @@
 
 a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
   @include transition( color .3s );
+  cursor: pointer;
   &:hover {
     color: $link-color-hover;
     text-decoration: underline;
