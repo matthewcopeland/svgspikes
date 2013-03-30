@@ -88,6 +88,10 @@ figcaption {
   display: inline-block; }
 #main-header a:not(:hover) {
   text-decoration: none; }
+#main-header #github-link {
+  position: absolute;
+  top: 0;
+  right: 0; }
 
 .placeholder-video, .video-wrapper {
   position: relative;

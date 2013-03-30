@@ -1,4 +1,10 @@
 #main-header {
   li { display: inline-block; }
   a:not(:hover) { text-decoration: none; }
+
+  #github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
